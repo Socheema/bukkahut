@@ -62,8 +62,8 @@ export default function DishDetails({
           </button>
         </div>
 
-        {/* Content */}
-        <div className="p-6 pb-32">
+  {/* Content */}
+  <div className="p-6 pb-32 dish-details-content">
           <h2
             className="mb-2"
             style={{ fontFamily: "Inter, sans-serif", fontWeight: 700 }}
@@ -163,6 +163,14 @@ export default function DishDetails({
         .animate-slide-up {
           animation: slide-up 0.3s ease-out;
         }
+        /* Scrollable content area with invisible scrollbar */
+        .dish-details-content {
+          max-height: calc(90vh - 328px);
+          overflow-y: auto;
+          -ms-overflow-style: none; /* IE and Edge */
+          scrollbar-width: none; /* Firefox */
+        }
+        .dish-details-content::-webkit-scrollbar { display: none; }
       `}</style>
     </div>
   );
