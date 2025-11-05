@@ -37,7 +37,7 @@ const categories = [
     id: 6,
     name: 'Pepper Soup',
     price: '₦2,800',
-    image:"https://www.thepretendchef.com/wp-content/uploads/2017/09/catfish-pepper-soup-Point-and-kill-1-8.jpg.webp"
+    image:"https://bakasiafricarestaurantmadrid.com/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-23-at-5.42.11-AM.jpeg"
   },
   {
     id: 7,
@@ -67,7 +67,7 @@ const categories = [
     id: 11,
     name: 'Akara',
     price: '₦800',
-    image: 'https://kscuisine.com/wp-content/uploads/2020/02/Akara-pic.jpeg'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYHxYXzqjPRT2c3If8fT2lyvJmL8ytKJsmOw&s'
   },
   {
     id: 12,
